@@ -43,12 +43,13 @@ public class Questao1 {
 			case 3:
 				int n1 = carro.size();
 				mediaVal = contAno/n1;
-				JOptionPane.showMessageDialog(null, "Há " +contPreco+"carro com o valor acima de 50 mil reais");
-				JOptionPane.showMessageDialog(null, "O valor da média referente a todos os anos é de: "+mediaAno);
+				JOptionPane.showMessageDialog(null, "Há " +contPreco+" carro com o valor acima de 50 mil reais");
+				JOptionPane.showMessageDialog(null, "O valor da média referente a todos os anos é de: "+mediaVal);
 				break;
 			case 4:
+				break;
 				default:
-					JOptionPane.showMessageDialog(null, "Insira uma opção válida!");
+					JOptionPane.showMessageDialog(null, "Insira uma opção válida! Ao digitar 4 o programa irá encerrar");
 						
 		}
 		
